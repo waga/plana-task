@@ -1,0 +1,7 @@
+<h1>Search by address</h1>
+<input type="text" [(ngModel)]="address" (keydown.enter)="onKeydownEnter($event)" placeholder="Address" autofocus />
+(Hit Enter to search)
+<div *ngFor="let mapAPIResponse of mapAPIResponses;">
+  {{mapAPIResponse.title}}
+  {{mapAPIResponse.results|json}}
+</div>
