@@ -36,9 +36,13 @@ Inside [config](https://github.com/waga/plana-task/blob/master/backend/config/co
 /api - API endpoint used in frontend to search by given address
 
 For API management following routes are used:
+
 /ui/api/list - List stored APIs
+
 /ui/api/add - Add new API
+
 /ui/api/edit/<id> - Edit API
+
 /ui/api/delete/<id> - Delete API
 
 # Frontend requirements
