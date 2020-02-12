@@ -42,3 +42,5 @@ to install dependencies (in [frontend](https://github.com/waga/plana-task/tree/m
 ```
 npm install
 ```
+
+API endpoint in [environment](https://github.com/waga/plana-task/blob/master/frontend/src/environments/environment.ts) and [prod environment](https://github.com/waga/plana-task/blob/master/frontend/src/environments/environment.prod.ts) need to be set properly.
