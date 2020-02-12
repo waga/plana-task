@@ -29,6 +29,18 @@ composer install
 ./vendor/bin/phpunit --bootstrap autoload.php tests
 ```
 
+# Backend running
+
+Inside [config](https://github.com/waga/plana-task/blob/master/backend/config/config.php) routes are stored
+
+/api - API endpoint used in frontend to search by given address
+
+For API management following routes are used:
+/ui/api/list - List stored APIs
+/ui/api/add - Add new API
+/ui/api/edit/<id> - Edit API
+/ui/api/delete/<id> - Delete API
+
 # Frontend requirements
 
 Angular 9
@@ -44,3 +56,11 @@ npm install
 ```
 
 API endpoint in [environment](https://github.com/waga/plana-task/blob/master/frontend/src/environments/environment.ts) and [prod environment](https://github.com/waga/plana-task/blob/master/frontend/src/environments/environment.prod.ts) need to be set properly.
+
+# Frontend running
+
+(in [frontend](https://github.com/waga/plana-task/tree/master/frontend) directory)
+
+```
+ng serve
+```
